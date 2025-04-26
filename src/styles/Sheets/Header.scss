@@ -1,3 +1,6 @@
+@use "../Variables" as *;
+
+
 .header {
   width: 100%;
   z-index: 3;
@@ -61,7 +64,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 0 0.5rem;
+    padding: 1rem 0 0;
 
     @media (max-width: 576px) {
       padding: 1rem 0.5rem;
@@ -134,7 +137,6 @@
   }
 
   &__item {
-    padding: 8px 0;
     display: inline-flex;
     align-items: center;
 
@@ -143,9 +145,11 @@
 
   &__link {
     text-decoration: none;
+    padding: .5rem 0;
     color: $font-black;
     font-size: $default-font-size;
     font-weight: 600;
+
 
     &__icon {
       margin: 0 0.5rem -3px 0;
