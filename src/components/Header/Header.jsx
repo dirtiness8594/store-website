@@ -13,12 +13,18 @@ import { GrUpdate, GrMenu } from 'react-icons/gr'
 
 import { menuPages } from '../../config'
 
+import useAppStore from '../../../store';
+
 /**
  *
  * @returns
  */
 
 function Header() {
+
+  const language = useAppStore((state) => state.language);
+  const setLanguage = useAppStore((state) => state.setLanguage);
+
   return (
     <header className='header'>
       <div className='header__wrapper'>
@@ -39,8 +45,9 @@ function Header() {
           </li>
           <li>
             <FiGlobe className='header__top__icon' />
-            <select className='header__select'>
-              <option>ENG</option>
+            <select className='header__select' onChange={(e) => setLanguage(e.target.value)} value={language}>
+              <option value="pt">PT</option>
+              <option value="en">ENG</option>
             </select>
           </li>
           <li>
