@@ -22,6 +22,9 @@ import { getProductData } from '../../../api'
 import { generateBreadcrumb } from '/src/utils/productUtils'
 
 import 'react-tabs/style/react-tabs.css'
+import ProductTop from '../sections/productTop'
+import ProductBottom from '../sections/productBottom'
+
 
 /**
  *
@@ -65,56 +68,8 @@ function ProductIndexPage() {
 
   return (
     <div className='product'>
-        <div className='product__top'>
-          <div className='product__wrap'>
-            <section className='product__zoom'>
-              <Breadcrumb
-                style='breadcrumb--product'
-                paths={
-                  productData && productData.info && productData.category
-                    ? generateBreadcrumb(productData.info, productData.category)
-                    : []
-                }
-              />
-              <ImageGallery
-                items={images}
-                showNav={false}
-                thumbnailPosition={'bottom'}
-                showThumbnails={false}
-                showFullscreenButton={false}
-                slideDuration={400}
-                showPlayButton={false}
-              />
-            </section>
-            <section className='product__about'>
-              <div className='product__tech'>
-                <ProductDetailsIndex
-                  price={productData?.price}
-                  name={productData?.name}
-                  description={productData?.fullName}
-                  rate={{
-                    amount: productData?.reviews.amount,
-                    average: productData?.reviews.average
-                  }}
-                />
-                <Sku />
-                <Freight freight={productData?.delivery} />
-                <Tickets tickets={productData?.ticket} />
-                <Amount amount={productData?.stock} skus={productData?.skus} />
-                <Finalization />
-                <Warnings />
-              </div>
-            </section>
-          </div>
-        </div>
-        <div className='product__bottom'>
-          <ProductCharacteristics
-            characteristics={productData?.characteristics}
-          />
-          <ProductDescription data={productData?.details} />
-          {/* <ProductQuestionAds data={productData?.questions} /> */}
-          <ProductReview data={productData?.reviews} />
-        </div>
+        <ProductTop />
+        <ProductBottom />
         <Single banner={productData?.bannerFooter} />
     </div>
   )
