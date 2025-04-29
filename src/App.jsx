@@ -46,6 +46,7 @@ const router = createBrowserRouter([
 function App() {
   const isCartPage = window.location.pathname.includes('cart')
 
+
   return (
     <>
       {!isCartPage && <Header />}

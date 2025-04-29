@@ -23,22 +23,22 @@ function HighlightAdvantadges() {
   const advantadges = [
     {
       name: 'Até 10 parcelas sem juros',
-      image: 'https://via.placeholder.com/50x50',
+      image: 'https://placehold.co/50x50',
       link: 'Ver mais'
     },
     {
       name: 'Até 10 parcelas sem juros',
-      image: 'https://via.placeholder.com/50x50',
+      image: 'https://placehold.co/50x50',
       link: 'Ver mais'
     },
     {
       name: 'Até 10 parcelas sem juros',
-      image: 'https://via.placeholder.com/50x50',
+      image: 'https://placehold.co/50x50',
       link: 'Ver mais'
     },
     {
       name: 'Até 10 parcelas sem juros',
-      image: 'https://via.placeholder.com/50x50',
+      image: 'https://placehold.co/50x50',
       link: 'Ver mais'
     }
   ]
@@ -62,7 +62,7 @@ function HighlightAdvantadges() {
           )
         })}
         {/* <div className="banner__topic banner__topic--plus">
-                    <img src="https://via.placeholder.com/50x50" alt="" className="banner__which" />
+                    <img src="https://placehold.co.com/50x50" alt="" className="banner__which" />
                 </div> */}
       </Slider>
     </section>

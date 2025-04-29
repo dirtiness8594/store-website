@@ -32,7 +32,7 @@ export async function getStoreInfoData() {
       id: '09876544567',
       name: 'Orion Sale',
       fullName: 'Orion Sale - Ecommerce',
-      logo: 'https://via.placeholder.com/100x50',
+      logo: 'https://placehold.co/100x50',
       address: []
     }
 
@@ -435,21 +435,21 @@ export async function getMainPageBannerData() {
             id: '7654567534',
             name: 'null',
             order: 1,
-            url: 'https://via.placeholder.com/1700x600',
+            url: 'https://placehold.co/1700x600',
             link: null
           },
           {
             id: '7654567534',
             name: 'null',
             order: 2,
-            url: 'https://via.placeholder.com/1700x600',
+            url: 'https://placehold.co/1700x600',
             link: null
           },
           {
             id: '7654567534',
             name: 'null',
             order: 3,
-            url: 'https://via.placeholder.com/1700x600',
+            url: 'https://placehold.co/1700x600',
             link: null
           }
         ]
@@ -466,28 +466,28 @@ export async function getMainPageBannerData() {
             id: '7654567534',
             name: 'Games',
             order: 1,
-            url: 'https://via.placeholder.com/300x400',
+            url: 'https://placehold.co/300x400',
             link: null
           },
           {
             id: '7654567534',
             name: 'Games',
             order: 1,
-            url: 'https://via.placeholder.com/300x400',
+            url: 'https://placehold.co/300x400',
             link: null
           },
           {
             id: '7654567534',
             name: 'Games',
             order: 1,
-            url: 'https://via.placeholder.com/300x400',
+            url: 'https://placehold.co/300x400',
             link: null
           },
           {
             id: '7654567534',
             name: 'Games',
             order: 1,
-            url: 'https://via.placeholder.com/300x400',
+            url: 'https://placehold.co/300x400',
             link: null
           }
         ]
@@ -504,14 +504,14 @@ export async function getMainPageBannerData() {
             id: '7654567534',
             name: 'Games',
             order: 1,
-            url: 'https://via.placeholder.com/100x100',
+            url: 'https://placehold.co/100x100',
             link: null
           },
           {
             id: '7654567534',
             name: 'Games',
             order: 1,
-            url: 'https://via.placeholder.com/100x100',
+            url: 'https://placehold.co/100x100',
             link: null
           }
         ]
@@ -528,7 +528,7 @@ export async function getMainPageBannerData() {
             id: '7654567534',
             name: 'null',
             order: 1,
-            url: 'https://via.placeholder.com/1200x250',
+            url: 'https://placehold.co/1200x250',
             link: null
           }
         ]
@@ -546,7 +546,7 @@ export async function getMainPageBannerData() {
             name: 'Envios até 48h',
             description: 'Ofertas do final de semana',
             order: 1,
-            url: 'https://via.placeholder.com/600x300',
+            url: 'https://placehold.co/600x300',
             link: '/categories'
           },
           {
@@ -554,7 +554,7 @@ export async function getMainPageBannerData() {
             name: 'Envios até 48h',
             description: 'Só até sexta-feira!',
             order: 2,
-            url: 'https://via.placeholder.com/600x300',
+            url: 'https://placehold.co/600x300',
             link: '/categories'
           }
         ]
@@ -629,14 +629,14 @@ export async function getBannerHighlightData() {
         {
           id: '0987654345678',
           name: 'Games & Setup',
-          url: 'https://via.placeholder.com/300x200',
+          url: 'https://placehold.co/300x200',
           order: 1,
           link: '/categorieOne'
         },
         {
           id: '0987654345678',
           name: 'Games & Setup',
-          url: 'https://via.placeholder.com/60x60',
+          url: 'https://placehold.co/60x60',
           order: 2,
           link: '/categorieOne'
         }
@@ -660,126 +660,126 @@ export async function getCategoriesBannerData() {
         {
           id: '0987654345678',
           name: 'Carros, Motos e Outros',
-          url: 'https://via.placeholder.com/60x60',
+          url: 'https://placehold.co/60x60',
           order: 1,
           link: '/categorieOne'
         },
         {
           id: '0987654345678',
           name: 'Carros, Motos e Outros',
-          url: 'https://via.placeholder.com/60x60',
+          url: 'https://placehold.co/60x60',
           order: 2,
           link: '/categorieOne'
         },
         {
           id: '0987654345678',
           name: 'Carros, Motos e Outros',
-          url: 'https://via.placeholder.com/60x60',
+          url: 'https://placehold.co/60x60',
           order: 3,
           link: '/categorieOne'
         },
         {
           id: '0987654345678',
           name: 'Carros, Motos e Outros',
-          url: 'https://via.placeholder.com/60x60',
+          url: 'https://placehold.co/60x60',
           order: 4,
           link: '/categorieOne'
         },
         {
           id: '0987654345678',
           name: 'Carros, Motos e Outros',
-          url: 'https://via.placeholder.com/60x60',
+          url: 'https://placehold.co/60x60',
           order: 5,
           link: '/categorieOne'
         },
         {
           id: '0987654345678',
           name: 'Carros, Motos e Outros',
-          url: 'https://via.placeholder.com/60x60',
+          url: 'https://placehold.co/60x60',
           order: 6,
           link: '/categorieOne'
         },
         {
           id: '0987654345678',
           name: 'Carros, Motos e Outros',
-          url: 'https://via.placeholder.com/60x60',
+          url: 'https://placehold.co/60x60',
           order: 7,
           link: '/categorieOne'
         },
         {
           id: '0987654345678',
           name: 'Carros, Motos e Outros',
-          url: 'https://via.placeholder.com/60x60',
+          url: 'https://placehold.co/60x60',
           order: 8,
           link: '/categorieOne'
         },
         {
           id: '0987654345678',
           name: 'Carros, Motos e Outros',
-          url: 'https://via.placeholder.com/60x60',
+          url: 'https://placehold.co/60x60',
           order: 8,
           link: '/categorieOne'
         },
         {
           id: '0987654345678',
           name: 'Carros, Motos e Outros',
-          url: 'https://via.placeholder.com/60x60',
+          url: 'https://placehold.co/60x60',
           order: 9,
           link: '/categorieOne'
         },
         {
           id: '0987654345678',
           name: 'Carros, Motos e Outros',
-          url: 'https://via.placeholder.com/60x60',
+          url: 'https://placehold.co/60x60',
           order: 10,
           link: '/categorieOne'
         },
         {
           id: '0987654345678',
           name: 'Carros, Motos e Outros',
-          url: 'https://via.placeholder.com/60x60',
+          url: 'https://placehold.co/60x60',
           order: 11,
           link: '/categorieOne'
         },
         {
           id: '0987654345678',
           name: 'Carros, Motos e Outros',
-          url: 'https://via.placeholder.com/60x60',
+          url: 'https://placehold.co/60x60',
           order: 12,
           link: '/categorieOne'
         },
         {
           id: '0987654345678',
           name: 'Carros, Motos e Outros',
-          url: 'https://via.placeholder.com/60x60',
+          url: 'https://placehold.co/60x60',
           order: 13,
           link: '/categorieOne'
         },
         {
           id: '0987654345678',
           name: 'Carros, Motos e Outros',
-          url: 'https://via.placeholder.com/60x60',
+          url: 'https://placehold.co/60x60',
           order: 14,
           link: '/categorieOne'
         },
         {
           id: '0987654345678',
           name: 'Carros, Motos e Outros',
-          url: 'https://via.placeholder.com/60x60',
+          url: 'https://placehold.co/60x60',
           order: 15,
           link: '/categorieOne'
         },
         {
           id: '0987654345678',
           name: 'Carros, Motos e Outros',
-          url: 'https://via.placeholder.com/60x60',
+          url: 'https://placehold.co/60x60',
           order: 16,
           link: '/categorieOne'
         },
         {
           id: '0987654345678',
           name: 'Carros, Motos e Outros',
-          url: 'https://via.placeholder.com/60x60',
+          url: 'https://placehold.co/60x60',
           order: 17,
           link: '/categorieOne'
         }
@@ -817,12 +817,12 @@ export async function getProductData({ productId }) {
       details: 'Lorem ipsum',
       images: [
         {
-          original: 'https://via.placeholder.com/900x900',
-          thumbnail: 'https://via.placeholder.com/50x50'
+          original: 'https://placehold.co/900x900',
+          thumbnail: 'https://placehold.co/50x50'
         },
         {
-          original: 'https://via.placeholder.com/900x900',
-          thumbnail: 'https://via.placeholder.com/50x50'
+          original: 'https://placehold.co/900x900',
+          thumbnail: 'https://placehold.co/50x50'
         }
       ],
       price: {
@@ -905,7 +905,7 @@ export async function getProductData({ productId }) {
       },
       bannerFooter: {
         id: '',
-        image: 'https://via.placeholder.com/1200x300',
+        image: 'https://placehold.co/1200x300',
         url: '/'
       }
     }

@@ -1,6 +1,20 @@
-@import './Variables', './Sheets/Checkout', './Sheets/Footer', './Sheets/Header',
-  './Sheets/Institutional', './Sheets/Product', './Sheets/Sections',
-  './Sheets/Category', './Components/Banner', './Components/Button',
-  './Components/Icon', './Components/Input', './Components/Filter',
-  './Components/Modal', './Components/Breadcrumb', './Mixins', './Reset',
-  '../../node_modules/react-image-gallery/styles/scss/image-gallery.scss';
+@use './Variables' as *;
+@use './Sheets/Checkout';
+@use './Sheets/Footer';
+@use'./Sheets/Header';
+@use  './Sheets/Institutional';
+@use  './Sheets/Product';
+ @use './Sheets/Sections';
+@use  './Sheets/Category';
+@use  './Components/Banner';
+ @use './Components/Button';
+ @use './Components/Icon';
+ @use './Components/Input';
+ @use './Components/Filter';
+ @use './Components/Modal';
+ @use './Components/Breadcrumb';
+ @use './Mixins';
+ @use './Reset';
+
+
+  // '../../node_modules/react-image-gallery/styles/scss/image-gallery.scss';
