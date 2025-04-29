@@ -6,15 +6,27 @@ import Breadcrumb from '../../../components/Breadcrumb/Breadcrumb'
 import Single from '../../../components/Banner/Sections/Single'
 import ProductDescription from '../../../components/Product/Sections/ProductDescription'
 import ProductCharacteristics from '../../../components/Product/Sections/ProductCharacteristics'
-import Sku from '../../../components/Product/Component/Sku'
-import Tickets from '../../../components/Product/Component/Tickets'
-import Freight from '../../../components/Product/Component/Freight'
-import Warnings from '../../../components/Product/Component/Warnings'
-import ProductDetailsIndex from '../../../components/Product/Shelf/Product/ProductDetailsIndex'
-import ProductReview from '../../../components/Product/Sections/ProductReview'
-import ProductQuestionAds from '../../../components/Product/Sections/ProductQuestionAds'
-import Amount from '../../../components/Product/Component/Amount'
-import Finalization from '../../../components/Product/Component/Finalization'
+// import Sku from '../../../components/Product/Component/Sku'
+// import Tickets from '../../../components/Product/Component/Tickets'
+// import Freight from '../../../components/Product/Component/Freight'
+// import Warnings from '../../../components/Product/Component/Warnings'
+
+// import ProductDetailsIndex from '../../../components/Product/Shelf/Product/ProductDetailsIndex'
+// import ProductReview from '../../../components/Product/Sections/ProductReview'
+// import ProductQuestionAds from '../../../components/Product/Sections/ProductQuestionAds'
+// import Amount from '../../../components/Product/Component/Amount'
+// import Finalization from '../../../components/Product/Component/Finalization'
+
+import Sku from '../components/sku/Sku'
+import ProductDetailsIndex from '../components/detail/Detail'
+import ProductReview from '../components/reviews/Reviews'
+import Finalization from '../components/finalization/Finalization'
+import Amount from '../components/amount/Amount'
+import Warnings from '../components/warnings/Warnings'
+import Freight from '../components/freights/Freights'
+import Tickets from '../components/tickets/Tickets'
+import ProductQuestionAds from '../components/questions/Questions'
+
 
 import { getProductData } from '../../../api'
 import { generateBreadcrumb } from '/src/utils/productUtils'
@@ -63,6 +75,7 @@ function ProductIndexPage() {
 
   return (
     <div className='product'>
+        fsadf
         <div className='product__top'>
           <div className='product__wrap'>
             <section className='product__zoom'>

@@ -1,7 +1,11 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 import HomeIndexPage from './pages/Home/HomeIndexPage'
-import ProductIndexPage from './pages/Product/ProductIndexPage'
+// import ProductIndexPage from './pages/Product/ProductIndexPage'
+
+import ProductIndexPage from './features/product/pages'
+
+
 import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer'
 import Cart from './pages/Cart/Cart'
